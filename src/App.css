@@ -1,38 +1,66 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    font-family: sans-serif;
+    background-color: peachpuff;
+    width: 50%;
+    margin: 10rem;
+    padding-right: 10rem;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .app {
+    padding-bottom: 0.1rem;
+    padding-left: 3rem;
   }
-  to {
-    transform: rotate(360deg);
+  
+  h1 {
+    font-size: 4rem;
+    margin-top: 4rem;
+    padding-top: 2rem;
+    color: rgb(57 78 106);
+    text-align: center;
   }
-}
+  
+  label {
+    font-size: 3rem;
+    line-height: 5rem;
+  }
+  
+  button {
+    padding: 1rem 1rem;
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    margin-top: 3rem;
+    padding: 1rem 12rem;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+  }
+  
+  p {
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+    color: black;
+    font-size: 1.5rem;
+  }
+  
+  input[type="username"] {
+    padding: 1rem 10rem;
+    border-radius: 0.5rem;
+    border-color: white;
+  }
+  
+  input[type="password"] {
+    padding: 1rem 10rem;
+    border-radius: 0.5rem;
+    border-color: white;
+  }
+  
+  input[type="email"] {
+    padding: 1rem 10rem;
+    border-radius: 0.5rem;
+    border-color: white;
+  }
+  
+
+  
+
